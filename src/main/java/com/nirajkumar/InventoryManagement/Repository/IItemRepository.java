@@ -1,6 +1,6 @@
 package com.nirajkumar.InventoryManagement.Repository;
 
-import com.nirajkumar.InventoryManagement.model.Borrower;
+import com.nirajkumar.InventoryManagement.model.Item;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -9,6 +9,6 @@ import org.springframework.stereotype.Repository;
  * @author nirajkumar
  */
 @Repository
-public interface IBorrowerRepository  extends  JpaRepository<Borrower, Long>{
+public interface IItemRepository extends JpaRepository<Item, Long>{
     
 }
