@@ -1,8 +1,11 @@
 package com.nirajkumar.InventoryManagement.Convertor;
 
 import com.nirajkumar.InventoryManagement.DTO.ItemRepairDto;
+import com.nirajkumar.InventoryManagement.Service.ItemService;
+import com.nirajkumar.InventoryManagement.Service.VendorService;
 import com.nirajkumar.InventoryManagement.model.ItemRepair;
 import java.util.ArrayList;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
