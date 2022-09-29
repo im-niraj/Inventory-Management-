@@ -3,96 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../static/css/Register.css">
     <script src="../static/js/Register.js" async></script>
     <title>Document</title>
 </head>
 <body>
 
-    <div class="container h-100vh">
-        <div class="row row h-100 align-items-center justify-content-centerr">
-            <div class="col align-self-cente ">
-                <div class="card">
-                    <div class="card-header text-center display-4">
-                        Register
-                    </div>
-                    <div class="card-body">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-md-4">
-                                    <label for="firstName">First Name</label>
-                                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="middleName">Middle Name</label>
-                                    <input type="text" class="form-control" id="middleName" placeholder="Middle Name">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="Sername">Sername</label>
-                                    <input type="text" class="form-control" id="Sername" placeholder="Sername">
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-4">
-                                    <label for="inputState">Year</label>
-                                    <select id="yeardropdown" class="form-control">
-                                        <option selected>Year...</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="inputState">Month</label>
-                                    <select id="monthdropdown" class="form-control">
-                                        <option selected>Month...</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="inputState">Day</label>
-                                    <select id="daydropdown" class="form-control">
-                                        <option selected>Day...</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Email</label>
-                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputPassword4">Password</label>
-                                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-4">
-                                    <label for="inputState">Country</label>
-                                    <select id="country" class="form-control">
-                                        <option selected>Country...</option>
-                                        <option>...</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="inputState">State</label>
-                                    <select id="state" class="form-control">
-                                        <option selected>State...</option>
-                                        <option>...</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="phonenumber">Phone Number</label>
-                                    <input type="number" class="form-control" id="phonenumber" placeholder="Phone Number">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <small><a href="https://codepen.io/MKAbuMattar/pen/RwwMEVY" class="form-text text-muted">I have an account!</a></small>
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
-                        </form>
-                    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-md-5">
+         <div class="card">
+           <h2 class="card-title text-center">Register on IMS</h2>
+            <div class="card-body py-md-4">
+             <form _lpchecked="1">
+                <div class="form-group">
+                   <input type="text" class="form-control" id="name" placeholder="Name">
+              </div>
+              <div class="form-group">
+                   <input type="email" class="form-control" id="email" placeholder="Email">
+                                  </div>
+                                  
+                                
+         <div class="form-group">
+           <input type="password" class="form-control" id="password" placeholder="Password">
+         </div>
+         <div class="form-group">
+            <input type="password" class="form-control" id="confirm-password" placeholder="confirm-password">
+         </div>
+         <div class="d-flex flex-row align-items-center justify-content-between">
+            <a href="#">Login</a>
+                                      <button class="btn btn-primary">Create Account</button>
                 </div>
-            </div>
+             </form>
+           </div>
         </div>
-    </div>
-    
+      </div>
+      </div>
+      </div>
 </body>
 </html>
